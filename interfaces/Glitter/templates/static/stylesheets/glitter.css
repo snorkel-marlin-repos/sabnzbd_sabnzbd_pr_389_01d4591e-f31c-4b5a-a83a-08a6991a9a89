@@ -636,12 +636,20 @@ tr.queueitem>td:first-child>a {
     background-color: #9DDB72;
 }
 
+.progress-bar-info-checking {
+    background-color: #58A9FA;
+}
+
+.progress-bar-info-checking small {
+    color: #5D5D5D !important;
+}
+
 .multioperations-selector {
     padding-left: 10px;
     border: 1px solid #F0F0F0;
     margin: -7px 0px 10px;
     background-color: #f9f9f9;
-    max-width: 700px;
+    max-width: 720px;
     float: right;
     position: relative;
     z-index: 900;
@@ -652,10 +660,15 @@ tr.queueitem>td:first-child>a {
 }
 
 .multioperations-selector .add-nzb-inputbox-small {
-    width: 60px;
+    width: 80px;
     float: right;
     padding-left: 0;
     padding-top: 2px;
+}
+
+.multioperations-selector .add-nzb-inputbox-small .label {
+    vertical-align: text-bottom;
+    margin-left: 2px;
 }
 
 .multioperations-selector .add-nzb-inputbox-small span {
@@ -1130,7 +1143,7 @@ tr.queueitem>td:first-child>a {
     float: right;
     color: white !important;
     margin-right: 1em;
-    margin-top: 4px;
+    margin-top: 2px;
     opacity: 1;
     outline: 0;
 }
@@ -1509,7 +1522,7 @@ tr.queueitem>td:first-child>a {
     }
 
     .queue .multioperations-selector {
-        min-width: 700px;
+        min-width: 715px;
     }
 }
 
@@ -1718,7 +1731,7 @@ legend {
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, 
 .nav-tabs>li.active>a:hover {
-    box-shadow: 0px -1px 2px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px -1px 1px 0px rgba(0,0,0,0.15)
 }
 
 .tab-content {
@@ -1779,7 +1792,6 @@ legend {
 }
 
 .modal-header .close {
-    margin: 0;
     opacity: 0.7;
     background: transparent;
     color: white;
